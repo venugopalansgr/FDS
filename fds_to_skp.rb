@@ -83,4 +83,4 @@ if( not file_loaded?("fds_to_skp.rb") )
    UI.menu("Tools").add_item("Import FDS") { fds_read }
 end
 
-file_loaded("fds_skp.rb")
+file_loaded("fds_to_skp.rb")
