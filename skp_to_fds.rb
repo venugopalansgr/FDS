@@ -3,7 +3,7 @@
 # Usage: Copy the plugin and place it in the Plugins folder
 # Usage: Choose "Export to FDS" under Tools menu and choose filename
 # Output: FDS input file will be created
-# Limitations: Each of the different geometry types ("OBST","VENT" etc) need to be in their own layer.
+# Limitations: Each of the different geometry types (limited to "OBST","VENT" for now) need to be in their own layer.
 # Limitations: Name of the layer same as the name of the geometry type
 # Limitations: Each object needs to be a group
 # Limitations: Slices need to be in Layer0 and a group with name containing "SLCF"
