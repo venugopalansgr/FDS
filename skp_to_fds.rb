@@ -11,6 +11,8 @@
 # Notes: Code is free. Appreciate feedback/acknowledgment when using it
 # Created by: Venugopalan Raghavan
 
+#EDIT:
+# 04 Jun 2015 - Removed unnecessary : in if clause before SURF_ID
 require 'sketchup.rb'
 
 def fds_write
@@ -163,7 +165,7 @@ def fds_write
 				
 					ename=""
 				
-					if entity.name!="":
+					if entity.name!=""
 						ename = entity.name
 						s2 = ", SURF_ID='"+ename+"'/"
 					elsif nN=="OBST"
